@@ -1,18 +1,18 @@
 {
     "require-dev": {
         "phpstan/phpstan": "^1.10",
-        "friendsofphp/php-cs-fixer": "^3.48"
+        "friendsofphp/php-cs-fixer": "^3.48",
+        "symfony/var-dumper": "^7.0"
     },
     
     "require": {
         "symfony/http-foundation": "^7.0",
         "twig/twig": "^3.8",
         "illuminate/database": "^10.42",
-        "vlucas/valitron": "^1.4",
-        "symfony/var-dumper": "^7.0"
+        "vlucas/valitron": "^1.4"
 
     },
-    "App": "mvc/app",
-    "MVC": "mvc/src",
-    "Functions": "app/functions.php"
+    "mvc/app": "App",
+    "mvc/src": "MVC",
+    "app/functions.php": "Functions"
 }
